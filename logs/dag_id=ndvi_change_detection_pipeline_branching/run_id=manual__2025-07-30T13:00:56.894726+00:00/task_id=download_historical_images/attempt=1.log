@@ -1,0 +1,64 @@
+{"timestamp":"2025-07-30T13:01:12.882992","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-30T13:01:12.883532","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-30T13:01:13.565228Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:13.565336Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:13.565449Z","level":"info","event":"Current task name:download_historical_images","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:13.565488Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:16.048719Z","level":"info","event":"Found 26 images between 2025-01-01 and 2025-07-30","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:17.625118Z","level":"info","event":"Downloading NDVI for 2025-01-04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:18.512089Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-04_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:20.106556Z","level":"info","event":"Downloading NDVI for 2025-01-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:20.565409Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-09_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:22.006489Z","level":"info","event":"Downloading NDVI for 2025-01-24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:22.376161Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-24_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:23.969377Z","level":"info","event":"Downloading NDVI for 2025-02-03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:24.966638Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-02-03_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:26.737757Z","level":"info","event":"Downloading NDVI for 2025-02-18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:27.249723Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-02-18_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:28.799704Z","level":"info","event":"Downloading NDVI for 2025-03-10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:29.238940Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-03-10_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:32.564071Z","level":"info","event":"Downloading NDVI for 2025-03-15","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:32.982273Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-03-15_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:35.300352Z","level":"info","event":"Downloading NDVI for 2025-03-22","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:35.758696Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-03-22_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:37.353783Z","level":"info","event":"Downloading NDVI for 2025-04-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:37.820922Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-04-09_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:39.275787Z","level":"info","event":"Downloading NDVI for 2025-04-24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:39.619057Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-04-24_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:41.595942Z","level":"info","event":"Downloading NDVI for 2025-05-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:41.980812Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-05-09_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:43.542481Z","level":"info","event":"Downloading NDVI for 2025-05-19","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:43.893067Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-05-19_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:45.198343Z","level":"info","event":"Downloading NDVI for 2025-05-29","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:45.557426Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-05-29_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:46.759746Z","level":"info","event":"Downloading NDVI for 2025-05-31","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:47.151917Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-05-31_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:48.716138Z","level":"info","event":"Downloading NDVI for 2025-06-03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:49.056661Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-03_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:50.408054Z","level":"info","event":"Downloading NDVI for 2025-06-08","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:50.807276Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-08_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:52.071386Z","level":"info","event":"Downloading NDVI for 2025-06-10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:52.984102Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-10_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:55.159556Z","level":"info","event":"Downloading NDVI for 2025-06-13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:56.061220Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-13_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:57.424914Z","level":"info","event":"Downloading NDVI for 2025-06-18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:57.934530Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-18_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:01:59.429740Z","level":"info","event":"Downloading NDVI for 2025-06-23","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:00.335235Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-23_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:01.600461Z","level":"info","event":"Downloading NDVI for 2025-06-28","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:01.939523Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-06-28_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:03.564912Z","level":"info","event":"Downloading NDVI for 2025-07-08","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:03.936191Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-07-08_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:05.478274Z","level":"info","event":"Downloading NDVI for 2025-07-10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:06.385612Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-07-10_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:08.216319Z","level":"info","event":"Downloading NDVI for 2025-07-18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:08.605850Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-07-18_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:10.092757Z","level":"info","event":"Downloading NDVI for 2025-07-20","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:10.445379Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-07-20_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:11.760295Z","level":"info","event":"Downloading NDVI for 2025-07-28","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:12.768273Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-07-28_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:12.768562Z","level":"info","event":"Finished downloading historical images.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:12.768789","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-30T13:02:12.787087Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:12.787192Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-30T13:02:12.787339Z","level":"info","event":"Task operator:<Task(PythonOperator): download_historical_images>","chan":"stdout","logger":"task"}

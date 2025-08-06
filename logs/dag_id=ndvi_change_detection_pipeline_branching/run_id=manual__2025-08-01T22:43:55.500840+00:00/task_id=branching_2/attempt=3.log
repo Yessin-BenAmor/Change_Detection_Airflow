@@ -1,0 +1,16 @@
+{"timestamp":"2025-08-01T22:50:13.629661","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T22:50:13.630306","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T22:50:14.590088Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.590204Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.590360Z","level":"info","event":"Current task name:branching_2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.590400Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.604041Z","level":"info","event":"Difference in days: 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.616214Z","level":"info","event":"SOG dates differ by more than 7 days. Continuing to composite image '.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.616454","level":"info","event":"Done. Returned value was: find_simulated_dates","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T22:50:14.616587","level":"info","event":"Branch into find_simulated_dates","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T22:50:14.616849","level":"info","event":"Following branch {'find_simulated_dates'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T22:50:14.617068","level":"info","event":"Skipping tasks [('anomalies_path', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T22:50:14.628472","level":"info","event":"Skipping downstream tasks.","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.665314Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.665441Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T22:50:14.665514Z","level":"info","event":"Task operator:<Task(BranchPythonOperator): branching_2>","chan":"stdout","logger":"task"}

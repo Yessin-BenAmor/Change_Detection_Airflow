@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-01T19:06:13.943107","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T19:06:13.943601","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T19:06:14.774448Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.774572Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.774637Z","level":"info","event":"Current task name:create_composite_before","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.774665Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.781933Z","level":"info","event":"Date string from XCom for before composite: 2025-01-04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.798755Z","level":"info","event":"Composite image created at: /home/user/airflow/output/composite_before.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.799565","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T19:06:14.816742Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.816877Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T19:06:14.816991Z","level":"info","event":"Task operator:<Task(PythonOperator): create_composite_before>","chan":"stdout","logger":"task"}

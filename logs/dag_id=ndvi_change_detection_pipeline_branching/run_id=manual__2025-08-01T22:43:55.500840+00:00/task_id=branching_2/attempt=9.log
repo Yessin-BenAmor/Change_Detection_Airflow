@@ -1,0 +1,16 @@
+{"timestamp":"2025-08-01T23:12:05.814835","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T23:12:05.815583","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T23:12:06.878672Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.878803Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.878911Z","level":"info","event":"Current task name:branching_2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.878955Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.893787Z","level":"info","event":"Difference in days: 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.907175Z","level":"info","event":"SOG dates differ by more than 7 days. Continuing to composite image '.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.907612","level":"info","event":"Done. Returned value was: find_simulated_dates","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T23:12:06.907769","level":"info","event":"Branch into find_simulated_dates","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T23:12:06.908018","level":"info","event":"Following branch {'find_simulated_dates'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T23:12:06.908317","level":"info","event":"Skipping tasks []","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T23:12:06.923102","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019867e8-2a61-7ee0-9866-925ac7da1911'), task_id='branching_2', dag_id='ndvi_change_detection_pipeline_branching', run_id='manual__2025-08-01T22:43:55.500840+00:00', try_number=9, map_index=-1, hostname='DESKTOP-H7QUGA8.', context_carrier=None, task=<Task(BranchPythonOperator): branching_2>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=9, start_date=datetime.datetime(2025, 8, 1, 23, 12, 5, 780142, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/ndvi_change_detection_pipeline_branching/runs/manual__2025-08-01T22%3A43%3A55.500840%2B00%3A00/tasks/branching_2?try_number=9')","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.951405Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.951526Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:12:06.951599Z","level":"info","event":"Task operator:<Task(BranchPythonOperator): branching_2>","chan":"stdout","logger":"task"}

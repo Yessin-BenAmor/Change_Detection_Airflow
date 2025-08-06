@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-29T16:44:39.862058","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T16:44:39.862501","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T16:44:40.627175Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.627286Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.627401Z","level":"info","event":"Current task name:compute_difference_tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.627441Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.628458Z","level":"info","event":"[ERROR] File not found: /home/user/airflow/2025-01-09.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.628615","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-29T16:44:40.641415Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.641493Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T16:44:40.641611Z","level":"info","event":"Task operator:<Task(PythonOperator): compute_difference_tif>","chan":"stdout","logger":"task"}

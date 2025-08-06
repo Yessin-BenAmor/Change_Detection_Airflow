@@ -1,0 +1,19 @@
+{"timestamp":"2025-08-06T12:56:14.039827","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-06T12:56:14.040337","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-06T12:56:14.839375Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:14.839479Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:14.839599Z","level":"info","event":"Current task name:download_historical_images","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:14.839649Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:17.644393Z","level":"info","event":"Found 27 images between 2025-01-01 and 2025-08-06","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:19.213236Z","level":"info","event":"Downloading NDVI for 2025-01-04","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:19.703362Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-04_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:22.458448Z","level":"info","event":"Downloading NDVI for 2025-01-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:22.937712Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-09_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:25.173370Z","level":"info","event":"Downloading NDVI for 2025-01-24","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:25.588758Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-01-24_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:27.422165Z","level":"info","event":"Downloading NDVI for 2025-02-03","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:27.869456Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-02-03_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:29.670903Z","level":"info","event":"Downloading NDVI for 2025-02-18","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:30.834357Z","level":"info","event":"Saved NDVI image to /home/user/airflow/historical_TIFs/2025-02-18_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T12:56:30.848621Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-08-06T12:56:30.868186Z","level":"error","event":"Task killed!","logger":"task"}

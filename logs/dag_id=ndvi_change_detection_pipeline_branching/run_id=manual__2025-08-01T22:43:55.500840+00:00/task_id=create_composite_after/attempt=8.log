@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-01T23:02:22.873143","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T23:02:22.873621","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T23:02:23.847181Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.847296Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.847401Z","level":"info","event":"Current task name:create_composite_after","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.847441Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.848407Z","level":"info","event":"Creating composite after wrapper...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.853824Z","level":"info","event":"Date string from XCom for after composite: 2025-01-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.858919Z","level":"info","event":"TTTTTTTTTTTTTTTTTTTTTTTMask array shape: (76, 80)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.868286Z","level":"info","event":"Composite image created at: /home/user/airflow/output/composite_after.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.868541","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T23:02:23.891653Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.891766Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T23:02:23.891897Z","level":"info","event":"Task operator:<Task(PythonOperator): create_composite_after>","chan":"stdout","logger":"task"}

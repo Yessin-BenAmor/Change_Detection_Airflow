@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-29T14:16:31.253908","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T14:16:31.255005","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T14:16:32.056330Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.056454Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.056570Z","level":"info","event":"Current task name:compute_mean","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.056628Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.057590Z","level":"info","event":"Calculating masked mean for /home/user/airflow/output_folder/difference_2025-03-25_2025-03-30.tif with mask /home/user/airflow/mask.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.057729","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-29T14:16:32.069838Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.069935Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:16:32.070058Z","level":"info","event":"Task operator:<Task(PythonOperator): compute_mean>","chan":"stdout","logger":"task"}

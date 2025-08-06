@@ -1,0 +1,16 @@
+{"timestamp":"2025-08-01T15:03:43.032095","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T15:03:43.032519","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T15:03:43.906783Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.906909Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.907074Z","level":"info","event":"Current task name:branching_2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.907119Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.920536Z","level":"info","event":"Difference in days: 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.933221Z","level":"info","event":"SOG dates are within 7 days. Continuing to 'anomalies_path'.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.933599","level":"info","event":"Done. Returned value was: anomalies_path","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T15:03:43.933748","level":"info","event":"Branch into anomalies_path","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T15:03:43.933996","level":"info","event":"Following branch {'anomalies_path'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T15:03:43.934200","level":"info","event":"Skipping tasks [('find_simulated_dates', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator"}
+{"timestamp":"2025-08-01T15:03:43.945957","level":"info","event":"Skipping downstream tasks.","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.972066Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.972171Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:03:43.972326Z","level":"info","event":"Task operator:<Task(BranchPythonOperator): branching_2>","chan":"stdout","logger":"task"}

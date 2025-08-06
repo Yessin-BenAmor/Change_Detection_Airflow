@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-01T14:20:57.415198","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T14:20:57.415643","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T14:20:58.267152Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.267320Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.267426Z","level":"info","event":"Current task name:compute_sog_shift","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.267454Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.280767Z","level":"info","event":"SOG Shift (days): 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.301802","level":"info","event":"Done. Returned value was: 0","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T14:20:58.302073","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01986601-e28c-73e1-b6c6-cb4dbdb1443e'), task_id='compute_sog_shift', dag_id='ndvi_change_detection_pipeline_branching', run_id='manual__2025-08-01T14:15:11.342353+00:00', try_number=2, map_index=-1, hostname='DESKTOP-H7QUGA8.', context_carrier=None, task=<Task(PythonOperator): compute_sog_shift>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2025, 8, 1, 14, 20, 57, 383109, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/ndvi_change_detection_pipeline_branching/runs/manual__2025-08-01T14%3A15%3A11.342353%2B00%3A00/tasks/compute_sog_shift?try_number=2')","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.329742Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.329866Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:20:58.329936Z","level":"info","event":"Task operator:<Task(PythonOperator): compute_sog_shift>","chan":"stdout","logger":"task"}

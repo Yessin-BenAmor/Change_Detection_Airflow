@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-06T13:28:51.090881","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-06T13:28:51.091316","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-06T13:28:51.865746Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:51.865839Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:51.866037Z","level":"info","event":"Current task name:init_ee","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:51.866076Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:54.807088Z","level":"info","event":"✅ Earth Engine initialized with service account.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:54.807612","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-06T13:28:54.873598Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:54.873698Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-06T13:28:54.873845Z","level":"info","event":"Task operator:<Task(PythonOperator): init_ee>","chan":"stdout","logger":"task"}

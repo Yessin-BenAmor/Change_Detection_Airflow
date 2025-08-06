@@ -1,0 +1,22 @@
+{"timestamp":"2025-08-05T14:27:50.373347","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T14:27:50.374183","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T14:27:51.564290Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.564456Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.564577Z","level":"info","event":"Current task name:find_simulated_dates","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.564717Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.566054Z","level":"info","event":"Using date_after_path: /home/user/airflow/historical_TIFs/2025-01-24_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584028Z","level":"info","event":"Pulled difference (sog_shift) from branching_2: 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584199Z","level":"info","event":"Using sog_shift as int: 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584541Z","level":"info","event":"Extracted date_after: 2025-01-24 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584698Z","level":"info","event":"Calculated date_before: 2025-01-11 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584812Z","level":"info","event":"Computed date_before_path: /home/user/airflow/historical_TIFs/2025-01-11_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.584856Z","level":"info","event":"testing find_simulated_dates","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.604633Z","level":"info","event":"All XCom from branching_2: None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.604797Z","level":"info","event":"Pulled sog_shift (difference): 13","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.604870Z","level":"info","event":"Simulated date before: 2024-12-29 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.604907Z","level":"info","event":"Simulated date after: 2025-01-11 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.604654","level":"info","event":"Done. Returned value was: {'simulated_date_before': '2024-12-29', 'simulated_date_after': '2025-01-11'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T14:27:51.604933","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01987aa1-928b-71bb-a87f-b540a84b3bf1'), task_id='find_simulated_dates', dag_id='ndvi_change_detection_pipeline_branching', run_id='scheduled__2025-08-05T09:28:36.313561+00:00', try_number=1, map_index=-1, hostname='DESKTOP-H7QUGA8.', context_carrier=None, task=<Task(PythonOperator): find_simulated_dates>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 5, 14, 27, 50, 282461, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/ndvi_change_detection_pipeline_branching/runs/scheduled__2025-08-05T09%3A28%3A36.313561%2B00%3A00/tasks/find_simulated_dates?try_number=1')","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.666399Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.666575Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:51.666690Z","level":"info","event":"Task operator:<Task(PythonOperator): find_simulated_dates>","chan":"stdout","logger":"task"}

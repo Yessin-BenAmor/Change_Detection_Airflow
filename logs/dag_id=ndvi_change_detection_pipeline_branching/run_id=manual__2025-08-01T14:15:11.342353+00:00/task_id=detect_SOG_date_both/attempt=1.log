@@ -1,0 +1,17 @@
+{"timestamp":"2025-08-01T14:17:49.114418","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T14:17:49.114911","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T14:17:49.882399Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.882685Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.882875Z","level":"info","event":"Current task name:detect_SOG_date_both","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.882985Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.978272Z","level":"info","event":"NDVI first change point date: 2025-03-10 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.980438Z","level":"info","event":"NDVI first change point date: 2025-03-10 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.980591Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.980636Z","level":"info","event":"SOG date for negative anomalies mask: 2025-03-10 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:49.980663Z","level":"info","event":"SOG date for normal mask: 2025-03-10 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:50.013493Z","level":"info","event":"SOG dates pushed to XCom. 2025-03-10 00:00:00 2025-03-10 00:00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:50.013920","level":"info","event":"Done. Returned value was: ('2025-03-10', '2025-03-10')","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T14:17:50.014150","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019865fc-9f10-7857-a412-b0f00d7652c6'), task_id='detect_SOG_date_both', dag_id='ndvi_change_detection_pipeline_branching', run_id='manual__2025-08-01T14:15:11.342353+00:00', try_number=1, map_index=-1, hostname='DESKTOP-H7QUGA8.', context_carrier=None, task=<Task(PythonOperator): detect_SOG_date_both>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2025, 8, 1, 14, 17, 49, 65214, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/ndvi_change_detection_pipeline_branching/runs/manual__2025-08-01T14%3A15%3A11.342353%2B00%3A00/tasks/detect_SOG_date_both?try_number=1')","logger":"task"}
+{"timestamp":"2025-08-01T14:17:50.052581Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:50.052693Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T14:17:50.052827Z","level":"info","event":"Task operator:<Task(PythonOperator): detect_SOG_date_both>","chan":"stdout","logger":"task"}

@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-01T16:44:26.541831","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T16:44:26.542353","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T16:44:27.476382Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.476489Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.476613Z","level":"info","event":"Current task name:find_closest_tifs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.476661Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.484870Z","level":"info","event":"Closest TIF before simulated date: 2025-01-04_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.485000Z","level":"info","event":"Closest TIF after simulated date: 2025-01-09_NDVI.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.545137","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T16:44:27.568179Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.568289Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T16:44:27.568572Z","level":"info","event":"Task operator:<Task(PythonOperator): find_closest_tifs>","chan":"stdout","logger":"task"}

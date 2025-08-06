@@ -1,0 +1,15 @@
+{"timestamp":"2025-07-29T14:10:25.432261","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T14:10:25.432667","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T14:10:26.187198Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:26.187311Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:26.187377Z","level":"info","event":"Current task name:download_historical_images","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:26.187405Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.185889Z","level":"info","event":"Error initializing Earth Engine: Please authorize access to your Earth Engine account by running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.186406Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.186560Z","level":"info","event":"earthengine authenticate","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.186656Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.186736Z","level":"info","event":"in your command line, or ee.Authenticate() in Python, and then retry.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.187184","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-29T14:10:38.214350Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.214475Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T14:10:38.214584Z","level":"info","event":"Task operator:<Task(PythonOperator): download_historical_images>","chan":"stdout","logger":"task"}

@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-24T10:33:34.506816","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-24T10:33:34.507325","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-24T10:33:34.534601Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.534698Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.534811Z","level":"info","event":"Current task name:create_composite_image","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.534849Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.536430Z","level":"info","event":"Creating composite from ['/path/to/first.tif', '/path/to/second.tif'] into /path/to/composite.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.536383","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-24T10:33:34.552904Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.553172Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-24T10:33:34.553411Z","level":"info","event":"Task operator:<Task(PythonOperator): create_composite_image>","chan":"stdout","logger":"task"}

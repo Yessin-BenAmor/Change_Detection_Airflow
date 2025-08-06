@@ -1,0 +1,14 @@
+{"timestamp":"2025-08-05T14:27:55.666590","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T14:27:55.667225","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T14:27:56.750154Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.750318Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.750413Z","level":"info","event":"Current task name:create_composite_after","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.750458Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.751929Z","level":"info","event":"Creating composite after wrapper...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.762851Z","level":"info","event":"Date string from XCom for after composite: 2025-01-09","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.772026Z","level":"info","event":"Mask array shape: (76, 80)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.784874Z","level":"info","event":"Composite image created at: /home/user/airflow/output/composite_after.tif","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.785327","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T14:27:56.818655Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.818823Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:27:56.818938Z","level":"info","event":"Task operator:<Task(PythonOperator): create_composite_after>","chan":"stdout","logger":"task"}

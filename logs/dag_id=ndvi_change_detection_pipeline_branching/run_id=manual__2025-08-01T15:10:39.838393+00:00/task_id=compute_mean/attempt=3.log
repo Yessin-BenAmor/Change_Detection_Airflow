@@ -1,0 +1,100 @@
+{"timestamp":"2025-08-01T15:41:17.658618","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-01T15:41:17.659385","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-01T15:41:18.502929Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.503054Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.503179Z","level":"info","event":"Current task name:compute_mean","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.503224Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.504263Z","level":"info","event":"Loading masks from XCom...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.516837Z","level":"info","event":"Found 27 historical NDVI images.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.524124Z","level":"info","event":"Date: 2025-01-04 | Neg mean: 0.3258 | Normal mean: 0.3317","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.525583Z","level":"info","event":"Date: 2025-01-09 | Neg mean: 0.3552 | Normal mean: 0.3263","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.526645Z","level":"info","event":"Date: 2025-01-24 | Neg mean: 0.3370 | Normal mean: 0.3768","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.527454Z","level":"info","event":"Date: 2025-02-03 | Neg mean: 0.3598 | Normal mean: 0.3964","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.528346Z","level":"info","event":"Date: 2025-02-18 | Neg mean: 0.1573 | Normal mean: 0.1494","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.529146Z","level":"info","event":"Date: 2025-03-10 | Neg mean: 0.2693 | Normal mean: 0.2490","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.529846Z","level":"info","event":"Date: 2025-03-15 | Neg mean: 0.2419 | Normal mean: 0.2313","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.530595Z","level":"info","event":"Date: 2025-03-22 | Neg mean: 0.2248 | Normal mean: 0.2094","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.531488Z","level":"info","event":"Date: 2025-04-09 | Neg mean: 0.2257 | Normal mean: 0.2009","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.532738Z","level":"info","event":"Date: 2025-04-24 | Neg mean: 0.1781 | Normal mean: 0.1619","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.537110Z","level":"info","event":"Date: 2025-05-09 | Neg mean: 0.1672 | Normal mean: 0.1559","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.539411Z","level":"info","event":"Date: 2025-05-19 | Neg mean: 0.1779 | Normal mean: 0.1637","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.543253Z","level":"info","event":"Date: 2025-05-29 | Neg mean: 0.1707 | Normal mean: 0.1582","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.546222Z","level":"info","event":"Date: 2025-05-31 | Neg mean: 0.1535 | Normal mean: 0.1424","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.547857Z","level":"info","event":"Date: 2025-06-03 | Neg mean: 0.1635 | Normal mean: 0.1510","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.549097Z","level":"info","event":"Date: 2025-06-08 | Neg mean: 0.1501 | Normal mean: 0.1435","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.550114Z","level":"info","event":"Date: 2025-06-10 | Neg mean: 0.1536 | Normal mean: 0.1390","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.551178Z","level":"info","event":"Date: 2025-06-13 | Neg mean: 0.1579 | Normal mean: 0.1454","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.552082Z","level":"info","event":"Date: 2025-06-18 | Neg mean: 0.1388 | Normal mean: 0.1272","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.553883Z","level":"info","event":"Date: 2025-06-23 | Neg mean: 0.1457 | Normal mean: 0.1321","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.555266Z","level":"info","event":"Date: 2025-06-28 | Neg mean: 0.1499 | Normal mean: 0.1363","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.556571Z","level":"info","event":"Date: 2025-07-08 | Neg mean: 0.1419 | Normal mean: 0.1228","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.557548Z","level":"info","event":"Date: 2025-07-10 | Neg mean: 0.1349 | Normal mean: 0.1215","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.558394Z","level":"info","event":"Date: 2025-07-18 | Neg mean: 0.1462 | Normal mean: 0.1354","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.559299Z","level":"info","event":"Date: 2025-07-20 | Neg mean: 0.1299 | Normal mean: 0.1172","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.560453Z","level":"info","event":"Date: 2025-07-28 | Neg mean: 0.1369 | Normal mean: 0.1275","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.561356Z","level":"info","event":"Date: 2025-07-30 | Neg mean: 0.1293 | Normal mean: 0.1145","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.562327Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.562404Z","level":"info","event":"=== Time series over negative anomalies mask ===","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567026Z","level":"info","event":"          date         y","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567151Z","level":"info","event":"0   2025-01-04  0.325764","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567191Z","level":"info","event":"1   2025-01-09  0.355192","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567215Z","level":"info","event":"2   2025-01-24  0.337010","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567237Z","level":"info","event":"3   2025-02-03  0.359753","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567258Z","level":"info","event":"4   2025-02-18  0.157287","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567277Z","level":"info","event":"5   2025-03-10  0.269331","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567299Z","level":"info","event":"6   2025-03-15  0.241941","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567318Z","level":"info","event":"7   2025-03-22  0.224819","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567336Z","level":"info","event":"8   2025-04-09  0.225660","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567354Z","level":"info","event":"9   2025-04-24  0.178130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567373Z","level":"info","event":"10  2025-05-09  0.167204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567396Z","level":"info","event":"11  2025-05-19  0.177906","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567416Z","level":"info","event":"12  2025-05-29  0.170685","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567436Z","level":"info","event":"13  2025-05-31  0.153503","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567456Z","level":"info","event":"14  2025-06-03  0.163547","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567484Z","level":"info","event":"15  2025-06-08  0.150098","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567504Z","level":"info","event":"16  2025-06-10  0.153619","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567526Z","level":"info","event":"17  2025-06-13  0.157855","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567545Z","level":"info","event":"18  2025-06-18  0.138817","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567574Z","level":"info","event":"19  2025-06-23  0.145729","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567594Z","level":"info","event":"20  2025-06-28  0.149916","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567613Z","level":"info","event":"21  2025-07-08  0.141909","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567633Z","level":"info","event":"22  2025-07-10  0.134881","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567652Z","level":"info","event":"23  2025-07-18  0.146236","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567670Z","level":"info","event":"24  2025-07-20  0.129895","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567691Z","level":"info","event":"25  2025-07-28  0.136923","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567712Z","level":"info","event":"26  2025-07-30  0.129310","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567733Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.567757Z","level":"info","event":"=== Time series over normal mask ===","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569223Z","level":"info","event":"          date         y","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569318Z","level":"info","event":"0   2025-01-04  0.331694","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569372Z","level":"info","event":"1   2025-01-09  0.326275","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569398Z","level":"info","event":"2   2025-01-24  0.376840","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569420Z","level":"info","event":"3   2025-02-03  0.396372","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569443Z","level":"info","event":"4   2025-02-18  0.149394","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569463Z","level":"info","event":"5   2025-03-10  0.249026","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569483Z","level":"info","event":"6   2025-03-15  0.231317","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569501Z","level":"info","event":"7   2025-03-22  0.209364","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569519Z","level":"info","event":"8   2025-04-09  0.200942","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569537Z","level":"info","event":"9   2025-04-24  0.161927","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569555Z","level":"info","event":"10  2025-05-09  0.155935","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569573Z","level":"info","event":"11  2025-05-19  0.163668","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569592Z","level":"info","event":"12  2025-05-29  0.158221","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569610Z","level":"info","event":"13  2025-05-31  0.142436","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569628Z","level":"info","event":"14  2025-06-03  0.150960","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569646Z","level":"info","event":"15  2025-06-08  0.143534","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569663Z","level":"info","event":"16  2025-06-10  0.139030","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569681Z","level":"info","event":"17  2025-06-13  0.145384","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569700Z","level":"info","event":"18  2025-06-18  0.127166","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569718Z","level":"info","event":"19  2025-06-23  0.132081","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569737Z","level":"info","event":"20  2025-06-28  0.136336","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569755Z","level":"info","event":"21  2025-07-08  0.122829","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569779Z","level":"info","event":"22  2025-07-10  0.121531","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569798Z","level":"info","event":"23  2025-07-18  0.135433","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569816Z","level":"info","event":"24  2025-07-20  0.117152","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569833Z","level":"info","event":"25  2025-07-28  0.127507","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.569851Z","level":"info","event":"26  2025-07-30  0.114524","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.572721","level":"info","event":"Done. Returned value was: (          date         y\n0   2025-01-04  0.325764\n1   2025-01-09  0.355192\n2   2025-01-24  0.337010\n3   2025-02-03  0.359753\n4   2025-02-18  0.157287\n5   2025-03-10  0.269331\n6   2025-03-15  0.241941\n7   2025-03-22  0.224819\n8   2025-04-09  0.225660\n9   2025-04-24  0.178130\n10  2025-05-09  0.167204\n11  2025-05-19  0.177906\n12  2025-05-29  0.170685\n13  2025-05-31  0.153503\n14  2025-06-03  0.163547\n15  2025-06-08  0.150098\n16  2025-06-10  0.153619\n17  2025-06-13  0.157855\n18  2025-06-18  0.138817\n19  2025-06-23  0.145729\n20  2025-06-28  0.149916\n21  2025-07-08  0.141909\n22  2025-07-10  0.134881\n23  2025-07-18  0.146236\n24  2025-07-20  0.129895\n25  2025-07-28  0.136923\n26  2025-07-30  0.129310,           date         y\n0   2025-01-04  0.331694\n1   2025-01-09  0.326275\n2   2025-01-24  0.376840\n3   2025-02-03  0.396372\n4   2025-02-18  0.149394\n5   2025-03-10  0.249026\n6   2025-03-15  0.231317\n7   2025-03-22  0.209364\n8   2025-04-09  0.200942\n9   2025-04-24  0.161927\n10  2025-05-09  0.155935\n11  2025-05-19  0.163668\n12  2025-05-29  0.158221\n13  2025-05-31  0.142436\n14  2025-06-03  0.150960\n15  2025-06-08  0.143534\n16  2025-06-10  0.139030\n17  2025-06-13  0.145384\n18  2025-06-18  0.127166\n19  2025-06-23  0.132081\n20  2025-06-28  0.136336\n21  2025-07-08  0.122829\n22  2025-07-10  0.121531\n23  2025-07-18  0.135433\n24  2025-07-20  0.117152\n25  2025-07-28  0.127507\n26  2025-07-30  0.114524)","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-01T15:41:18.572961","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0198664b-7318-70a3-9406-c0916659f4f3'), task_id='compute_mean', dag_id='ndvi_change_detection_pipeline_branching', run_id='manual__2025-08-01T15:10:39.838393+00:00', try_number=3, map_index=-1, hostname='DESKTOP-H7QUGA8.', context_carrier=None, task=<Task(PythonOperator): compute_mean>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 8, 1, 15, 41, 17, 622237, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/ndvi_change_detection_pipeline_branching/runs/manual__2025-08-01T15%3A10%3A39.838393%2B00%3A00/tasks/compute_mean?try_number=3')","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.633340Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.633452Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-01T15:41:18.633563Z","level":"info","event":"Task operator:<Task(PythonOperator): compute_mean>","chan":"stdout","logger":"task"}

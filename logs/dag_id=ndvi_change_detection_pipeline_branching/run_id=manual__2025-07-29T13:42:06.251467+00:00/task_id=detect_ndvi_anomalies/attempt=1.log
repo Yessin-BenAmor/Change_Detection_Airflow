@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-29T13:42:07.494512","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T13:42:07.495190","level":"info","event":"Filling up the DagBag from /home/user/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T13:42:08.278053Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:08.278273Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:08.278457Z","level":"info","event":"Current task name:detect_ndvi_anomalies","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:08.278506Z","level":"info","event":"Dag name:ndvi_change_detection_pipeline_branching","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:12.004841","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-29T13:42:12.020043Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:12.020183Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T13:42:12.020455Z","level":"info","event":"Task operator:<Task(PythonOperator): detect_ndvi_anomalies>","chan":"stdout","logger":"task"}
